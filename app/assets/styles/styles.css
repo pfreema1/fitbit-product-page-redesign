@@ -1,3 +1,213 @@
 div {
     outline: 1px solid red;
 }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+    END RESET
+*/
+
+/*
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Lato', sans-serif;
+main blue = #CDE9F6
+blue text = #5690A2
+gray triangle = #F2F2F2
+
+*/
+
+div {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.product-container {
+    margin-top: 20%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.info-container {
+    width: 40%;
+    
+
+}
+
+.info-container div {
+    padding: 5% 0;
+}
+
+.product-image-container {
+    width: 60%;
+}
+
+.product-image-container img {
+    max-width: 100%;
+}
+
+.info-container__pre-heading {
+    color: #5690A2;
+    font-size: .5rem;
+}
+
+.info-container__product-title {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+    /* text-align: center; */
+}
+
+.info-container__product-blurb {
+    font-size: .4rem;
+    font-weight: 100;
+}
+
+.info-container__price {
+    display: flex;
+    /* flex-direction: column; */
+    color: #5690A2;
+    /* justify-content: space-between; */
+}
+
+.info-container__price--line {
+    background-color: rgba(86, 144, 162, .3);
+    width: 25%;
+    height: 1px;
+    align-self: center;
+    margin-right: 1%;
+}
+.info-container__price--text {
+    margin-left: 10px;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    width: 75%;
+    height: 50%;
+    font-size: .5rem;
+    font-weight: 400;
+    text-align: center;
+    box-shadow: 0px 0px 26px 0px rgba(50, 50, 50, 0.25);
+}
+
+.btn span {
+    padding: 0 5px 1px 5px;
+    
+}
+
+.info-container__dropdowns li {
+    border-top: 1px solid RGBA(0, 0, 0, .1);
+    border-bottom: 1px solid RGBA(0, 0, 0, .1);
+    font-size: .5rem;
+    padding: 3% 3%;
+}
+
+.info-container__dropdowns li:nth-child(2) {
+    border-top: none;
+    
+}
+
+.info-container__dropdowns li span {
+    float: right;
+}
+
+.blue-background {
+    background-color: rgba(205, 233, 246, .7);
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -5;
+}
+
+.gray-triangle {
+    background-color: rgba(242, 242, 242, .5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -99;
+    transform: rotate(68deg);
+    /* clip-path: polygon(100% 43%, 0% 100%, 100% 100%); */
+}
+
+.white-middle-layer {
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -7;
+}
+
+.shapes-container {
+    /* position: none; */
+    
+    
+}
+
+
+
+
+
+
+
+
+
